@@ -63,12 +63,14 @@ main {
 
 .place, .shop, .market, .photo-spot {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .place img, .shop img, .market img, .photo-spot img {
@@ -98,3 +100,5 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+
